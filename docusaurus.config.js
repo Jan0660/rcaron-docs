@@ -38,22 +38,10 @@ const config = {
           // Remove this to remove the "edit this page" links.
           routeBasePath: '/',
           editUrl:
-            'https://github.com/Jan0660/rcaron-docs/tree/main/',
+            'https://github.com/Jan0660/rcaron-docs/tree/master/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
-        },
-        colorMode: {
-          // "light" | "dark"
-          defaultMode: 'dark',
-    
-          // Hides the switch in the navbar
-          // Useful if you want to support a single color mode
-          disableSwitch: false,
-    
-          // Should we use the prefers-color-scheme media-query,
-          // using user system preferences, instead of the hardcoded defaultMode
-          respectPrefersColorScheme: true,
         },
       }),
     ],
@@ -79,6 +67,18 @@ const config = {
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
+      },
+      colorMode: {
+        // "light" | "dark"
+        defaultMode: 'dark',
+  
+        // Hides the switch in the navbar
+        // Useful if you want to support a single color mode
+        disableSwitch: false,
+  
+        // Should we use the prefers-color-scheme media-query,
+        // using user system preferences, instead of the hardcoded defaultMode
+        respectPrefersColorScheme: true,
       },
     }),
 };
