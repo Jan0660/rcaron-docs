@@ -21,7 +21,7 @@ The `for` statement except it uses a single scope for all of the loop body runs.
 ## The `foreach` loop
 The `foreach` statement executes a code block for each element provided by the enumerator of a type that implements `IEnumerable`.
 ! Note the type has to implement `IEnumerable` while C# only requires the type to have a parameterless GetEnumerator and [blablabla](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/statements/iteration-statements#the-foreach-statement).
-```
+```rcaron
 foreach ($num in @(0, 1, 2, 3)) {
     print $num;
 }
@@ -29,7 +29,7 @@ foreach ($num in @(0, 1, 2, 3)) {
 ```
 ## The `while` loop
 The `while` statement executes it's body zero or more times as long as it's condition is true.
-```
+```rcaron
 $n = 0;
 while ($n < 4) {
     print $n;
@@ -39,7 +39,7 @@ while ($n < 4) {
 ```
 ## The `dowhile` loop
 The `dowhile` statement executes it's body at least once and continues as long as it's condition is true.
-```
+```rcaron
 $n = 0;
 dowhile ($false) {
     print $n;
@@ -49,7 +49,7 @@ dowhile ($false) {
 ```
 ## The `loop` loop
 The `loop` loop continues with no condition. It just continues. Only way to escape out of it is the `break` statement.
-```
+```rcaron
 $n = 0;
 loop {
     print $n;

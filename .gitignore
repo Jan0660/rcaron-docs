@@ -1,8 +1,10 @@
 # Dependencies
 /node_modules
+/rcaron-prism/node_modules
 
 # Production
 /build
+/rcaron-prism/build
 
 # Generated files
 .docusaurus

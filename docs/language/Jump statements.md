@@ -13,7 +13,7 @@ print Fun();
 ```
 ## `break`
 Terminates a loop.
-```
+```rcaron
 $h = 0;
 loop {
     $h = $h + 1;
