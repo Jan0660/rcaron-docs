@@ -2,7 +2,10 @@
 description: RCaron classes
 ---
 
+# Classes
+
 Currently all you can do with classes is properties and functions. Properties are currently only read-write public and can also optionally have a default value. Functions of course have access to the class instance's properties.
+
 ```rcaron
 class Funny {
     $prop;
