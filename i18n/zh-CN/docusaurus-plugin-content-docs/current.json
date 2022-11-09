@@ -1,0 +1,22 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.RCaron": {
+    "message": "RCaron",
+    "description": "The label for category RCaron in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.RCaron.link.generated-index.title": {
+    "message": "RCaron",
+    "description": "The generated-index page title for category RCaron in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Language": {
+    "message": "Language",
+    "description": "The label for category Language in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Language.link.generated-index.title": {
+    "message": "Language features",
+    "description": "The generated-index page title for category Language in sidebar tutorialSidebar"
+  }
+}
