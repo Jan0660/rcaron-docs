@@ -10,6 +10,10 @@ Inside RCaron some of these are not even called operators, or they may be but I 
 
 All numeric operators support the types of `Byte, Char, Decimal, Double, Int16, Int32, Int64, SByte, Single, UInt16, UInt32, UInt64` on both position and on the first position with an `IConvertible` on the second. The `+` operator also supports `String`.
 
+:::caution
+Multiplication(`*`) and division(`/`) need a space after them to not be recognized as a path.
+:::
+
 - `+` - Sum
 - `-` - Difference
 - `*` - Multiplication
@@ -36,14 +40,7 @@ The left and right side of the logical operators must evaluate to `Boolean`.
 
 ## Range Operator
 
-The range operator gets resolved to the `RCaron.RCaronRange` class. It has the `long` `Start` and `End` properties and implements `IEnumerable`.
-
-```rcaron
-foreach ($i in 0..5) {
-    print $i;
-}
-// Outputs 0 1 2 3 and 4
-```
+The range operator was abandoned in favor of the [`range` builtin function](../Built-In%20Functions.md#range).
 
 ## Unary Operation
 
