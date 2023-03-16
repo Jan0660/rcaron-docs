@@ -40,7 +40,7 @@ The left and right side of the logical operators must evaluate to `Boolean`.
 
 ## Range Operator
 
-The range operator was abandoned in favor of the [`range` builtin function](../Built-In%20Functions.md#range).
+The range operator was abandoned in favor of the [`range` builtin function](./Built-In%20Functions.md#range).
 
 ## Unary Operation
 

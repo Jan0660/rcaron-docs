@@ -29,7 +29,7 @@ Sets a global variable. Has two arguments, the first is the name of the variable
 
 ## throw
 
-[Throws an exception](./language/Exception%20Handling#the-throw-method)
+[Throws an exception](./Exception%20Handling#the-throw-method)
 
 ## range
 
