@@ -17,7 +17,6 @@ const controlKeyword = {
 };
 
 PrismLanguages['rcaron'] = {
-    // Prism.languages['rcaron'] = {
     'comment': {
         pattern: /(\/\/.*)|(\/\#(.|\n)*?\#\/)/,
         greedy: true,
