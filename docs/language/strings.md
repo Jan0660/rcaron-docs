@@ -25,8 +25,11 @@ print 'this is a string with a pretty \r\n newline'
 - `\t` - horizontal tab
 - `\v` - vertical tab
 
-Then we also have the unicode escape codes. The one start with `\u` takes 4 he digits and the one started with `\U` takes 8 hex digits.
+## Unicode escape sequences
+
+Then we also have the unicode escape codes. The one starting with `\u` always takes 4 digits and the one starting with `\U` always takes 8 hex digits.
 
 ```rcaron
 print '\u0041' # A
+print '\U00000041' # A
 ```
