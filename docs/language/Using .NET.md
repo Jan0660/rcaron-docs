@@ -25,7 +25,7 @@ Arrays in RCaron are created as arrays of `object` and there is currently no imp
 
 ```rcaron
 open_ext 'System.Linq';
-foreach($val in @(1, 2, 2, 3, 3).Distinct()) {
+foreach ($val in @(1, 2, 2, 3, 3).Distinct()) {
     print $val;
 }
 ```

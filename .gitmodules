@@ -1,0 +1,3 @@
+[submodule "submodules/rcaron-vscode"]
+	path = submodules/rcaron-vscode
+	url = https://github.com/Jan0660/rcaron-vscode.git

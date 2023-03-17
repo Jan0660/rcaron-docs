@@ -3,6 +3,7 @@
 
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/nightOwl');
+const rcaronLanguageGrammar = require('./submodules/rcaron-vscode/syntaxes/rcaron.tmLanguage.json');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -45,6 +46,19 @@ const config = {
         },
       }),
     ],
+    [
+      'docusaurus-preset-shiki-twoslash',
+      {
+        themes: ["min-light", "dark-plus"],
+        langs: [
+          {
+            id: "rcaron",
+            scopeName: "source.rcaron",
+            grammar: rcaronLanguageGrammar,
+          }
+        ]
+      },
+    ],
   ],
 
   themeConfig:
@@ -53,7 +67,7 @@ const config = {
       navbar: {
         title: 'RCaron',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'A lowercase r with a caron',
           src: 'img/favicon.ico',
         },
         items: [
