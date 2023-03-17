@@ -53,7 +53,10 @@ PrismLanguages['rcaron'] = {
     'builtInConversionFunction': builtInConversionFunction,
     'boolean': /\$(true|false)/,
     'number': /[0-9]/,
-    'class-name': /#([\w\._]+)/i,
+    'class-name': {
+        pattern: /#([\w\._]+)/i,
+        greedy: true,
+    },
     'classDefinition': {
         pattern: /(class)\s+(\w+)/i,
         inside: {
