@@ -1,8 +1,6 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
-const lightCodeTheme = require('prism-react-renderer/themes/github');
-const darkCodeTheme = require('prism-react-renderer/themes/nightOwl');
 const rcaronLanguageGrammar = require('./submodules/rcaron-vscode/syntaxes/rcaron.tmLanguage.json');
 
 /** @type {import('@docusaurus/types').Config} */
@@ -81,10 +79,6 @@ const config = {
             position: 'right',
           },
         ],
-      },
-      prism: {
-        theme: lightCodeTheme,
-        darkTheme: darkCodeTheme,
       },
       colorMode: {
         // "light" | "dark"
