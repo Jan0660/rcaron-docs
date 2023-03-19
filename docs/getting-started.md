@@ -4,6 +4,8 @@ sidebar_position: 2
 
 # Getting Started
 
+RCaron is currently unusable as a shell, a little usable as a scripting language.
+
 ## Installation
 
 You can install the RCaron shell as a global tool with the following command, requires .NET 7:
