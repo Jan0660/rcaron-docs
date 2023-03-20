@@ -35,8 +35,8 @@ There are the following comparison operators:
 
 The left and right side of the logical operators must evaluate to `Boolean`.
 
-- `&&` - Logical AND
-- `||` - Logical OR
+- `&&` - Logical AND, if the left side is `false` the right side is not evaluated
+- `||` - Logical OR, if the left side is `true` the right side is not evaluated
 
 ## Range Operator
 
