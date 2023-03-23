@@ -13,6 +13,8 @@ Numbers can also have suffixes, which are case insensitive. A hexadecimal number
 - `D` or `d` - `double`
 - `M` or `m` - `decimal`
 
+You can also use underscores to make numbers more readable. Note that the first character after a decimal point is not allowed to be an underscore.
+
 ```rcaron
 $h = 1; // long
 $h = 1L; // long
@@ -25,4 +27,12 @@ $h = 1.0F; // float
 $h = 1.0; // double
 $h = 1.0D; // double
 $h = 1.0M; // decimal
+
+$h = 1_000_000; // long
+$h = 1_______; //long
+$h = 1.0_0; // double
+$h = 1.0_0D; // double
+$h = 0x_____dead_beef____ul; // long
+
+$h = 0x_____; // error
 ```
