@@ -23,6 +23,6 @@ $fun.prop = 123;
 $fun.Function();
 ```
 
-::: note
+:::note
 Note that you can not call a class function from outside the class with the keyword plain call [call type](./Call%20Types.md).
 :::
