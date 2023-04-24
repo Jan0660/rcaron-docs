@@ -8,6 +8,6 @@ Currently RCaron has only a VSCode plugin, but more will come in the future.
 
 ## VSCode
 
-You currently have to build it yourself from [the repo](https://github.com/Jan0660/rcaron-vscode).
+You can find it on the [VSCode Marketplace](https://marketplace.visualstudio.com/items?itemName=Jan0660.rcaron).
 
-After installing it you have to set the path to the Language Server in the settings, which you also have to build yourself from the `RCaron.LanguageServer` project in [the RCaron repository](https://github.com/Jan0660/RCaron).
+Then head to [here](https://github.com/Jan0660/rcaron-vscode#language-server) for info on how to get the language server.
