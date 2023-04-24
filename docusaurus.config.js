@@ -53,7 +53,8 @@ const config = {
             id: "rcaron",
             scopeName: "source.rcaron",
             grammar: rcaronLanguageGrammar,
-          }
+          },
+          "csharp",
         ]
       },
     ],
