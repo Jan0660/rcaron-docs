@@ -31,6 +31,11 @@ The `for` statement except it uses a single scope for all of the loop body runs.
 ## The `foreach` loop
 
 The `foreach` statement executes a code block for each element provided by the enumerator of a type that implements `IEnumerable`.
+
+:::note
+The right side of the `foreach` can also be an `IEnumerator`.
+:::
+
 :::note
 Note the type has to implement `IEnumerable` while C# only requires the type to have a parameterless GetEnumerator and [blablabla](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/statements/iteration-statements#the-foreach-statement).
 :::
