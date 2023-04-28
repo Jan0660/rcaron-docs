@@ -13,6 +13,10 @@ Currently it has no built-in way to be used from RCaron. You can manually build 
 - All variables have to be boxed to `object` in order to be assigned
 - The `Compiler.CompileToBlock` method is a little messy, and uses local methods, which end up creating heap allocations for closures
 
+## Not Implemented
+
+- [Pipelines](../language/Pipelines.md), because they'd still be painful for performance
+
 ## Performance
 
 The SimpleMathOp benchmark is `$h = 2 * (2 + 3);`
