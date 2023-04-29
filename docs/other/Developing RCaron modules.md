@@ -15,7 +15,7 @@
     [Module("hello")]
     public partial class HelloModule : IRCaronModule
     {
-        [Method("Hello")]
+        [Method("Hello", Description = "Says hello to the specified name")]
         public void Hello(Motor _, string name)
         {
             Console.WriteLine($"Hello, {name}!");
