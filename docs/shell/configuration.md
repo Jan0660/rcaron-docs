@@ -83,3 +83,20 @@ func Prompt() {
 
 Set-Prompt 'Prompt';
 ```
+
+### Aliases
+
+You can set executable aliases with `Set-ExecAlias`, this currently only works with the executable name.
+
+```rcaron
+// (Linux)
+Set-ExecAlias 'list' 'ls'
+list
+```
+
+You can also retrieve the set aliases with `Get-ExecAlias`:
+
+```rcaron
+Set-ExecAlias 'list' 'ls'
+print (@Get-ExecAlias 'list')
+```
