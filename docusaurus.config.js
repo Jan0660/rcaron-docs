@@ -71,12 +71,18 @@ const config = {
         },
         items: [
           {
-            href: 'https://github.com/Jan0660/RCaron',
-            label: 'GitHub',
+            type: 'docsVersionDropdown',
             position: 'right',
+            // dropdownItemsAfter: [{to: '/versions', label: 'All versions'}],
+            dropdownActiveClassDisabled: true,
           },
           {
             type: 'localeDropdown',
+            position: 'right',
+          },
+          {
+            href: 'https://github.com/Jan0660/RCaron',
+            label: 'GitHub',
             position: 'right',
           },
         ],
