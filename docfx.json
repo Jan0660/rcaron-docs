@@ -1,0 +1,20 @@
+{
+  "metadata": [
+    {
+      "src": [
+        {
+          "files": [
+            "RCaron/RCaron.csproj",
+            "RCaron.AutoCompletion/RCaron.AutoCompletion.csproj",
+            "RCaron.LibrarySourceGenerator.Attributes/RCaron.LibrarySourceGenerator.Attributes.csproj",
+            "RCaron.Jit/RCaron.Jit.csproj"
+          ],
+          "src": "../RCaron/"
+        }
+      ],
+      "dest": "api",
+      "disableGitFeatures": false,
+      "disableDefaultFilter": false
+    }
+  ]
+}

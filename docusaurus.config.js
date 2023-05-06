@@ -71,6 +71,11 @@ const config = {
         },
         items: [
           {
+            href: "/api",
+            label: ".NET API",
+            position: "left",
+          },
+          {
             type: 'docsVersionDropdown',
             position: 'right',
             // dropdownItemsAfter: [{to: '/versions', label: 'All versions'}],
