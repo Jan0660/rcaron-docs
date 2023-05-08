@@ -1,3 +1,8 @@
+---
+sidebar_position: 1
+slug: /
+---
+
 # RCaron
 
 一个基于.NET的语言，其存在的意义不为人所知。
