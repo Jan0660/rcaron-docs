@@ -10,7 +10,7 @@ set +a
 
 function DoVersion () {
     pushd ../$PROJECT_NAME
-    dotnet build -c release -maxcpucount:1
+    dotnet build -c release
     popd
     docfx metadata
     dfmg
@@ -38,15 +38,8 @@ else
         git fetch --tags origin
         git checkout $checkout_version
         popd
-        # write config.yaml for this version
-        original_text=$(cat ./config.yaml)
-        text="outputPath: ./versioned_docs/version-$docusaurus_version/api
-yamlPath: ./api"
-        echo -e "$text" > ./config.yaml
 
-        DoVersion
-        # restore config.yaml
-        echo -e "$original_text" > ./config.yaml
+        DFMG_OUTPUT_PATH=./versioned_docs/version-$docusaurus_version/api DFMG_YAML_PATH=./api DoVersion
     done
 
     # restore to original branch

@@ -1,2 +1,5 @@
 outputPath: ./docs/api
 yamlPath: ./api
+typesGrouping:
+  enabled: true
+  minCount: 12
